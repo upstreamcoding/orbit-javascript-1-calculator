@@ -1,3 +1,5 @@
+# Calculator
+
 Learn how to build a calculator from scratch that functions like an iPhone calculator (without the +/- and percentage functionalities).
 
 ## Prerequisites
