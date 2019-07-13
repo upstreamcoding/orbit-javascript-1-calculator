@@ -14,7 +14,7 @@ Make sure you have a decent command of JavaScript. Minimally, you need to know t
 - How to add event listeners with the event delegation pattern
 
 ## Getting Started
-Fork this repo https://github.com/upstreamcoding/orbit-javascript-1-calculator/
+- [Download Project Files (.zip)](https://github.com/upstreamcoding/orbit-javascript-1-calculator/archive/master.zip)
 
 
 ## Building the calculator
