@@ -22,7 +22,7 @@ First, we want to build the calculator.
 
 The calculator consist of two parts: the display and the keys.
 
-![calc-1--keys-display](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-1--keys-display.png)
+![calc-1--keys-display](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-01--keys-display.png)
 
 ```
 <div class="calculator">
@@ -134,7 +134,7 @@ if (action === 'calculate') {
 
 At this point, you should get a `console.log` response from every calculator key.
 
-![calc-02--console](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-02--console.gif)
+![calc-02--console](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-02--console.gif)
 
 
 ## Building the happy path
@@ -155,11 +155,11 @@ It can be overwhelming to consider five types of keys at once, so let's take it 
 ### When a user hits a number key
 At this point, if the calculator shows 0 (the default number), the target number should replace zero.
 
-![calc-03--number-key](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-03--number-key.gif)
+![calc-03--number-key](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-03--number-key.gif)
 
 If the calculator shows a non-zero number, the target number should be appended to the displayed number.
 
-![calc-04--non-zero](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-04--non-zero.gif)
+![calc-04--non-zero](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-04--non-zero.gif)
 
 Here, we need to know two things:
 
@@ -229,7 +229,7 @@ Next, let's say Mary continues her calculation by hitting an operator key.
 
 If Mary hits an operator key, the operator should be highlighted so Mary knows the operator is active.
 
-![calc-06--operator](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-06--operator.gif)
+![calc-06--operator](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-06--operator.gif)
 
 To do so, we can add the is-depressed class to the operator key.
 
@@ -251,7 +251,7 @@ Once Mary has hit an operator key, she'll hit another number key.
 
 When Mary hits a number key again, the previous display should be replaced with the new number. The operator key should also release its pressed state.
 
-![calc-07--num-after-operator](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-07--num-after-operator.gif)
+![calc-07--num-after-operator](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-07--num-after-operator.gif)
 
 To release the pressed state, we remove the `is-depressed` class from all keys through a `forEach` loop:
 
@@ -320,7 +320,7 @@ When Mary hits the equals key, the calculator should calculate a result that dep
 
 After the calculation, the result should replace the displayed value.
 
-![calc-08--equals](https://github.com/upstreamcoding/orbit-javascript-calculator/tree/master/imgs/calc-08--equals.gif)
+![calc-08--equals](https://github.com/upstreamcoding/orbit-javascript-1-calculator/blob/master/imgs/calc-08--equals.gif)
 
 At this point, we only know the second number — that is, the currently displayed number.
 
